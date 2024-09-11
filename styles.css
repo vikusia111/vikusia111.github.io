@@ -72,12 +72,16 @@ body > footer {
 }
 h2 > form {
     text-align: center;
-    
 }
-form { text-align: center;}
 h2 {
     text-align: center;
 }
+form {text-align: center;}
+
+#fill-in {
+    text-align: center;
+}
+
 img {
     border-radius: 100;
 }
