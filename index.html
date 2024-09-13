@@ -2,166 +2,167 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" 
-rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nerko+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .photo-row {
+          display: flex;
+          justify-content: space-between; /* Distribute space between the images */
+          margin-bottom: 20px
+        }
+    
+        .photo-row img {
+            width: 400px;  /* Set width */
+            height: 400px; /* Adjust width to fit 3 photos in one row */
+        }
+        /* Each image container */
+        .image-container {
+          position: relative;
+          width: 30%; /* Adjust width to fit 3 images */
+        }
+
+    
+
+        /* Text over the image in the bottom-left corner */
+        .image-text {
+          position: absolute;
+          bottom: 10px; /* Position the text at the bottom */
+          left: 10px; /* Position the text to the left */
+          color: white; /* Text color */
+          font-size: 18px; /* Adjust font size */
+          background-color: rgba(214, 136, 204, 0.5); /* Semi-transparent background for readability */
+          padding: 5px; /* Padding around the text */
+        }
+        
+      </style>
+    <title>Giftie by VG</title>
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <h1 id="logo">Giftie by VG</h1>
+        <h2 id="phrase">Gifts for your loved ones packed by two sisters with passion </h2>
         <nav>
-            <ul id="nav-ul">
-                <li><a href="" class="navbutton">Home</a></li>
+            <ul id="nav-header">
+                <li><a href="" class="navbutton">Shop</a></li>
                 <li><a href="" class="navbutton">About us</a></li>
-                <li><a href="" class="navbutton">Contact</a></li>
+                <li><a href="" class="navbutton">Delivery</a></li>
+                <li><a href="" class="navbutton">Contact us</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div id="main-content">
-            <aside>
-                <section>
-                    <h4>Filter by Month</h4>
+    <header id="filterheader">
+        <h3>Choose your special ocassion</h3>
                     <nav>
-                        <ul>
-                            <li><a href=""></a>Filter for January</li>
-                            <li><a href=""></a>Filter for February</li>
-                            <li><a href=""></a>Filter for March</li>
+                        <ul id="ocassion">
+                            <li><a href="">Birthday</a></li>
+                            <li><a href="">Thank you</a></li>
+                            <li><a href="">Leving gift</a></li>
+                            <li><a href="">Proud of you</a></li>
                         </ul>
                     </nav>
+    </header>
+    <main>
+        <div class="photo-row">
+            <div class="image-container">
+                <div class="image-text">Proud of You gift box</div>
+                <section id="picture1">
+                    <a href="https://www.etsy.com/uk/listing/1584889552/new-job-gift-box-for-her-you-got-this?click_key=161eb657e0f8a9545ae19a29dc3c9972b8927394%3A1584889552&click_sum=6ab84ebb&ref=shop_home_feat_2&pro=1&sts=1" target="https://www.etsy.com/uk/listing/1584889552/new-job-gift-box-for-her-you-got-this?click_key=161eb657e0f8a9545ae19a29dc3c9972b8927394%3A1584889552&click_sum=6ab84ebb&ref=shop_home_feat_2&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/b592b9/5533121557/il_794xN.5533121557_cnpc.jpg" alt="Proud of you" class="linked-image">
+                    </a>
                 </section>
-                <section>
-                  <h4>Filter by Category</h4>
-                <nav>
-                    <ul>
-                        <li><a href=""></a>Puppies</li>
-                        <li><a href=""></a>Dogs</li>
-                        <li><a href=""></a>Cats</li>
-                        <li><a href=""></a>Hedgehogs</li>
-                    </ul>
-                </nav>
-                </section>
-            </aside>
-            <div>
-                <article>
-                <header>
-                    <!-- Article's header goes here -->
-                    <h2>Title of the article</h2>
-                    <h3>Read time: 5min</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam itaque, esse quos eius numquam ut est, aperiam rerum, voluptates totam harum asperiores ratione reprehenderit mollitia similique odit velit quam quia dolores! Voluptatibus nihil similique, obcaecati architecto ut error mollitia rerum totam, animi sit cupiditate aliquid, odit consequuntur! Numquam dolor debitis exercitationem commodi laudantium nemo nihil et, perspiciatis doloribus officiis. Eum doloribus nobis labore omnis, quisquam fugit saepe libero accusamus! Consequatur dignissimos nihil autem, quidem explicabo mollitia suscipit natus accusantium tempora dicta quibusdam quis, iusto repellendus culpa id. Hic fugit assumenda sit modi voluptas corporis soluta ipsam eos quibusdam suscipit.</p>
-                    <p><blockquote>I love puppies! <cite>Zsolt, 2024</cite></blockquote></p>
-                </main>
-                <footer>
-                    <h2>Author Zsolt</h2>
-                    <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                    <h3>Last posted: 01/08/2024</h3>
-                    <a href="brightnetwork.co.uk">Author's profile</a>
-                </footer>
-                </article>
-                <article>
-                <header>
-                    <!-- Article's header goes here -->
-                    <h2>Title of the article</h2>
-                    <h3>Read time: 5min</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam itaque, esse quos eius numquam ut est, aperiam rerum, voluptates totam harum asperiores ratione reprehenderit mollitia similique odit velit quam quia dolores! Voluptatibus nihil similique, obcaecati architecto ut error mollitia rerum totam, animi sit cupiditate aliquid, odit consequuntur! Numquam dolor debitis exercitationem commodi laudantium nemo nihil et, perspiciatis doloribus officiis. Eum doloribus nobis labore omnis, quisquam fugit saepe libero accusamus! Consequatur dignissimos nihil autem, quidem explicabo mollitia suscipit natus accusantium tempora dicta quibusdam quis, iusto repellendus culpa id. Hic fugit assumenda sit modi voluptas corporis soluta ipsam eos quibusdam suscipit.</p>
-                    <p><blockquote>I love puppies! <cite>Zsolt, 2024</cite></blockquote></p>
-                </main>
-                <footer>
-                    <h2>Author Zsolt</h2>
-                    <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                    <h3>Last posted: 01/08/2024</h3>
-                    <a href="brightnetwork.co.uk">Author's profile</a>
-                </footer>
-                </article>
-                <article>
-                <header>
-                    <!-- Article's header goes here -->
-                    <h2>Title of the article</h2>
-                    <h3>Read time: 5min</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias veniam itaque, esse quos eius numquam ut est, aperiam rerum, voluptates totam harum asperiores ratione reprehenderit mollitia similique odit velit quam quia dolores! Voluptatibus nihil similique, obcaecati architecto ut error mollitia rerum totam, animi sit cupiditate aliquid, odit consequuntur! Numquam dolor debitis exercitationem commodi laudantium nemo nihil et, perspiciatis doloribus officiis. Eum doloribus nobis labore omnis, quisquam fugit saepe libero accusamus! Consequatur dignissimos nihil autem, quidem explicabo mollitia suscipit natus accusantium tempora dicta quibusdam quis, iusto repellendus culpa id. Hic fugit assumenda sit modi voluptas corporis soluta ipsam eos quibusdam suscipit.</p>
-                    <p><blockquote>I love puppies! <cite>Zsolt, 2024</cite></blockquote></p>
-                </main>
-                <footer>
-                    <h2>Author Zsolt</h2>
-                    <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                    <h3>Last posted: 01/08/2024</h3>
-                    <a href="brightnetwork.co.uk">Author's profile</a>
-                </footer>
-                </article>
             </div>
-            
+            <div class="image-container">
+                <div class="image-text">Thank you gift box</div>
+                <section id="picture2">
+                    <a href="https://www.etsy.com/uk/listing/995713990/thank-you-gift-for-mothers-day-womens?click_key=6ba3ec9c2597d6b11cc8186e4b21ecbc9a425884%3A995713990&click_sum=8f33ca46&ref=shop_home_feat_3&pro=1&sts=1" target="https://www.etsy.com/uk/listing/995713990/thank-you-gift-for-mothers-day-womens?click_key=6ba3ec9c2597d6b11cc8186e4b21ecbc9a425884%3A995713990&click_sum=8f33ca46&ref=shop_home_feat_3&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/7493cf/5630744460/il_794xN.5630744460_7f4l.jpg" alt="Thank you" class="linked-image">
+                    </a>
+                </section>
+            </div>
+            <div class="image-container">
+                <div class="image-text">Happy Birthday gift box</div>
+                <section id="picture3">
+                    <a href="https://www.etsy.com/uk/listing/1040696297/birthday-gift-box-spa-personalised?click_key=d68d3dc3e8051f72a2b2c47217a9f245d741408e%3A1040696297&click_sum=8b39192e&ref=shop_home_feat_1&pro=1&sts=1" target="https://www.etsy.com/uk/listing/1040696297/birthday-gift-box-spa-personalised?click_key=d68d3dc3e8051f72a2b2c47217a9f245d741408e%3A1040696297&click_sum=8b39192e&ref=shop_home_feat_1&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/605716/6267571626/il_794xN.6267571626_pz5y.jpg" alt="Happy Birthday gift box" class="linked-image">
+                    </a>
+                </section>
+            </div>
         </div>
-        <hr>
-        <h2>Sign up to our newsletter here! </h2>
-        <form action method=""></form>
-        <hr>
-            <div id="fill-in">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name"required>
-                <br>
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="last_name"required>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-                <br>
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password">
-                <br>
-                <label for="favourite_animal">Favourite animal</label>
-                <input type="radio" name="favourite_animal" id="dog" va lue="dog">
-                <label for="dog">Dog</label>
-                <input type="radio" name="favourite_animal" id="cat" value="cat">
-                <label for="cat">Cat</label>
-                <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
-                <label for="hedgehog">Hedgehog</label>
-                <br>
-                <label for="country">Country:</label>
-                <select name="country" id="country">
-                    <option value="england">England</option>
-                    <option value="scotland">Scotland</option>
-                    <option value="wales">Wales</option>
-                    <option value="northern_island">Northern Island</option>
-                </select>
-                <br>
-                <label for="bio">Biography:</label>
-                <textarea name="bio" id="bio" cols="50" rows="5"></textarea>
-                <br>
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <label for="subscribe">Subscribe to our newsletter!</label>
-                <br>
-                <input type="submit" value="Send!">
+        <div class="photo-row">
+            <div class="image-container">
+                <div class="image-text">Thank you gift box</div>
+                <section id="picture4">
+                    <a href="https://www.etsy.com/uk/listing/1318387405/thank-you-letterbox-gift-for-her-thank?click_key=a0905646876a26aff13118e8e9c2a5ad79be547f%3A1318387405&click_sum=345c3524&ref=shop_home_active_10&pro=1&sts=1" target="https://www.etsy.com/uk/listing/1318387405/thank-you-letterbox-gift-for-her-thank?click_key=a0905646876a26aff13118e8e9c2a5ad79be547f%3A1318387405&click_sum=345c3524&ref=shop_home_active_10&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/b6291a/6267633186/il_794xN.6267633186_nk48.jpg" alt="Proud of you" class="linked-image">
+                    </a>
+                </section>
             </div>
-        <hr>
-    </main> 
+            <div class="image-container">
+                <div class="image-text">Proud of you gift box</div>
+                <section id="picture5">
+                    <a href="https://www.etsy.com/uk/listing/1740302202/proud-of-you-gift-box-for-her?click_key=71dfcac615c5bc0a4deaf4be1d1914cbaa44e460%3A1740302202&click_sum=883b44b3&ref=shop_home_active_14&pro=1&sts=1" target="https://www.etsy.com/uk/listing/1740302202/proud-of-you-gift-box-for-her?click_key=71dfcac615c5bc0a4deaf4be1d1914cbaa44e460%3A1740302202&click_sum=883b44b3&ref=shop_home_active_14&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/f0e4e5/6092203704/il_794xN.6092203704_al1g.jpg" alt="Proud of you" class="linked-image">
+                    </a>
+                </section>
+            </div>
+            <div class="image-container">
+                <div class="image-text">Happy Birthday Dad</div>
+                <section id="picture6">
+                    <a href="https://www.etsy.com/uk/listing/1719145301/best-dad-ever-gift-for-fathers-day?click_key=bbe3e441ef0a243ecc9b067754d54667d9277797%3A1719145301&click_sum=bb64adc4&ref=shop_home_active_18&pro=1&sts=1" target="https://www.etsy.com/uk/listing/1719145301/best-dad-ever-gift-for-fathers-day?click_key=bbe3e441ef0a243ecc9b067754d54667d9277797%3A1719145301&click_sum=bb64adc4&ref=shop_home_active_18&pro=1&sts=1">
+                    <img src="https://i.etsystatic.com/25890615/r/il/a7527e/6267638012/il_794xN.6267638012_gkdu.jpg" alt="Happy Birthday Dad" class="linked-image">
+                    </a>
+                </section>
+            </div>
+        </div>
+        <div>
+            <h2>Fancy a 10% discount for your first order?</h2>
+            <h2>Sign up to our newsletter!</h2>
+            <form action method=""></form>
+                <div id="fill-in">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name"required>
+                    <br>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name"required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to our newsletter!</label>
+                    <br>
+                    <input type="submit" value="Send!">
+                </div>
+        </div>
+    </main>
+    <br>
+    <br>
     <footer>
-        <h2>BrightBlogSite</h2>
+        <h4>Giftie by VG</h4>
         <section>
             <nav>
                 <ul id="footer-ul">
                     <div>
-                        <li><a href=""></a>Home</li>
-                        <li><a href=""></a>About us</li>
-                        <li><a href=""></a>Contact us</li>
-                        <li><a href=""></a>Careers</li>
-                    </div>
-                    <div>
-                        <li><a href=""></a>Privacy Policy</li>
-                        <li><a href=""></a>Terms & Conditions</li>
-                        <li><a href=""></a>Cookie Policy</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookie Policy</a></li>
                     </div>
                 </ul>
             </nav>
         </section>
     </footer>
+    <br>
+    <footer>
+        <p>&copy; 2024 Giftie by VG. All rights reserved.</p>
+    </footer>
+    <br>
+
 </body>
 </html>

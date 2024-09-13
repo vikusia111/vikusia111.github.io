@@ -1,99 +1,144 @@
-h1 {
-    margin: 0px;
-}
-ul {
-    margin: 0px;
-}
-
-
+#logo {
+    position: sticky;
+    top: -1px;
+    left: 0;
+    right: 0;
+    z-index: 30;}
+h1 {margin: 0px;}
+ul {margin: 0px;}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-}
+    }
 body > header {
-    background-color: orange;
-    color: #f199bc;
+    background-color: #ffbbd6;
+    color: white;
+    display:flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;}
+   
+#nav-header {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+#nav-header > li {
+    padding: 8px;
+    display: inline;
+    margin: 0 10px;}    
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add some padding */
+    border: 2px solid white; /* Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    color: white; /* Text color */
+    background-color: #ffbbd6; /* Background color */
+    transition: background-color 0.3s; /* Add a transition for hover effect */}  
+     
+#logo {
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: bold;
+        font-size: 55px;}
+#phrase {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: auto;}
+#ocassion {
+    display: flexbox;
+    background-color: #ffbbd6;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+#filterheader {
+    justify-content: space-evenly;
+}
+#ocassion > li {
+    padding: 8px;
+    display: inline;
+    margin: 0 10px;}  
+
+img {
+    width: 400px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid white; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: transform 0.3s; /* Add a transition for zoom effect */}
+#pictures {
     display:flex;
     height: 12vh;
     align-items: center;
     justify-content: space-around;
 }
-#nav-ul {
+body > main {
+    width: 80%;
+    margin: auto;
+}
+body {
+    background-color: #fab1ce;
+}
+.image-text {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#fill-in {
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: bold;
+    font-size: 25px;
+    color: white;
+}
+#footer-ul {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 }
-#nav-ul > li {
-    padding: 8px;
-}
-
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-}
-.navbutton {
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-    border: 1px solid white;
-    border-width: 3px;
-    border-radius: 10%;
-}
-
-body > main {
-    width: 60%;
-    margin: auto;
-}
-#main-content {
-    display: flex;
-    justify-content: space-evenly;
-}
-#main-content > div {
-    width: 70%;
-}
-
-body > footer {
-    background-color: orange;
-    display: flex;
-}
-#logo {
-    box-shadow: 8px 8px 10px 3px darkorange;
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One",  sans-serif;
-    width: 16%;
-    border-radius: 30%;
-    text-shadow: 
-    2px 2px 0px #ef5285,
-    -2px 2px 0px #ef5285,
-    2px -2px 0px #ef5285,
-    -2px -2px 0px #ef5285;
-}
-h2 > form {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-form {text-align: center;}
-
-#fill-in {
-    text-align: center;
-}
-
-img {
-    border-radius: 100;
-}
-#footer-ul {
-    display: flex;
-    list-style: none;
-}
 #footer-ul > div > li {
-    margin-left: 12px;
+    padding: 0px;
+    display: inline;
+    margin: 0 10px;}  
 
-}
 #footer-ul > div > li {
    color: white;
    text-align: none;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add some padding */
+    border: 2px solid white; /* Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    color: white; /* Text color */
+    background-color: #ffbbd6; /* Background color */
+    transition: background-color 0.3s; 
+}
+h4 {
+    text-align: left;
+   margin: 0px;
+   color: white;
+
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
